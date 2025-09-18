@@ -1,0 +1,49 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wdth,wght@0,97,200..900;1,97,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <div id="main-sec">
+            <p>Image Gallery</p>
+            <div id="trash">
+                        <button>
+                            <a id="link" href="del.html"><img id="icons" src="https://img.icons8.com/comic/100/trash.png" alt="trash" ></a>
+                        </button>
+                    </div>
+            <div id="nav-bar">
+                <form id="left" >
+                    <input id="url" placeholder="Put Your Url Here" required>
+                    <button type="button" id="Submit">Submit</button>
+                </form>    
+            </div>
+            <span id="Error_Area"></span>
+            <div id="img-container">
+                <div id="img-area">
+                    <dialog>
+                        <form id="dialog-form" method="dialog">
+                            <input placeholder="Put Your Url Here" value="" id="editurl">
+                            <div id="dial">
+                                <button id="onsub" type="submit" class="onub">Submit</button>
+                                <button id="close" class="onub">Close</button>
+                            </div>
+                        </form>
+                    </dialog>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
